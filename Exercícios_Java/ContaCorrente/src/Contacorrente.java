@@ -10,28 +10,7 @@ public class Contacorrente {
     
 
    //MÉTODO CONSTRUTOR
-   public Contacorrente(int numeroConta, String nome, float saldo){
-        this.setNumeroConta(numeroConta);
-        this.setNome(nome);
-        this.setSaldo(saldo);
-        this.setDeposito(deposito);
-        this.setSaque(saque);
-   }
-
-   //MÉTODOS
-   public static String AlterarNome(String nome){
-        return nome;
-   }
-
    
-   public static float Depositar(float deposito){
-
-   }
-
-   public static float Sacar(float saldo, float saque){
-    saldo = saldo - saque;
-    return saldo;
-   }
 
 
    //MÉTODOS ACESSORES
